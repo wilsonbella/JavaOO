@@ -1,0 +1,2 @@
+module bytebankcomposto {
+}
