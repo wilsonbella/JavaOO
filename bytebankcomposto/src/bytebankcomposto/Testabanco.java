@@ -9,7 +9,7 @@ public class Testabanco {
 		
 		Conta contaDoWilson = new Conta();
 		contaDoWilson.deposita(100);
-		
+		//Associa o cliente Wilson a contaDoWilson
 		contaDoWilson.titular = wilson;
 		System.out.println(contaDoWilson.titular.nome);
 	}
