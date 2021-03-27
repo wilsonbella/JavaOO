@@ -8,6 +8,11 @@ public class TestaGetESet {
 		conta.setNumero(1337);
 		System.out.println(conta.getNumero());
 
+		Cliente wilson = new Cliente();
+		// conta.titular = wilson;
+
+		conta.setTitular(wilson);
+
 	}
 
 }
