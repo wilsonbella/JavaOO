@@ -17,6 +17,7 @@ public class Gerente extends Funcionario{
 
 	public double getBonificacao() {
 		//pega da super class, sobrescrita
+		System.out.println("Gerente bonificacao");
 		return super.getBonificacao() + super.getSalario();
 
 	}
