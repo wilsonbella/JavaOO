@@ -13,6 +13,6 @@ public class TesteContas {
 
 		System.out.println("A cc possui :" + cc.getSaldo());
 
-		System.out.println("A cp possuui :" + cp.getSaldo());
+		System.out.println("A cp possui :" + cp.getSaldo());
 	}
 }
