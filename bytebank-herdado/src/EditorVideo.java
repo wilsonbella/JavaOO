@@ -1,9 +1,10 @@
-
+//Gerente eh um Funcionario, Gerente herda da class Funcionario
 public class EditorVideo extends Funcionario {
+	
+	@Override
 	public double getBonificacao() {
-		System.out.println("Editor bonificacao");
+		System.out.println("Chamando o método de bonificacao do Editor de video");
 		return 150;
-
-	}
+	}	
 
 }

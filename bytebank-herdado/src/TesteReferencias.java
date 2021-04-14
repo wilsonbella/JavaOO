@@ -1,24 +1,24 @@
-
 public class TesteReferencias {
-	public static void main(String[] args) {
-		Funcionario g1 = new Gerente();
 
-		g1.setSalario(5500.0);
+    public static void main(String[] args) {
 
-		Funcionario e = new EditorVideo();
+        Gerente g1 = new Gerente();
+        g1.setNome("Marcos");
+        g1.setSalario(5000.0);
 
-		e.setSalario(3000.0);
+        EditorVideo ev = new EditorVideo();
+        ev.setSalario(2500.0);
 
-		Funcionario d = new Designer();
+        Designer d = new Designer();
+        d.setSalario(2000.0);
 
-		d.setSalario(4000.0);
+        ControleBonificacao controle = new ControleBonificacao();
+        controle.registra(g1);
+        controle.registra(ev);
+        controle.registra(d);
 
-		ControleBonificacao controle = new ControleBonificacao();
-		controle.registra(g1);
-		controle.registra(e);
-		controle.registra(d);
+        System.out.println(controle.getSoma());
 
-		System.out.println(controle.getSoma());
-	}
+    }
 
 }
