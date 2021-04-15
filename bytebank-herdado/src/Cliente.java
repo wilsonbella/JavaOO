@@ -1,4 +1,4 @@
-
+//Cliente assina com a interface Autenticavel
 public class Cliente implements Autenticavel {
 
 	private int senha;
