@@ -1,0 +1,11 @@
+//contrato autenticavel
+//quem assinar esse contrato precisa implementar
+//método setSenha e método autentica
+
+public abstract interface Autenticavel {
+
+	public abstract void setSenha(int senha);
+
+	public abstract boolean autentica(int senha);
+
+}
